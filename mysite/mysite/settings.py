@@ -57,7 +57,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
-        'APP_DIRS': True,
+        'APP_DIRS': True,# 可以读取APP中的templates文件
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
@@ -107,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us' #可以换成简体中文 zh-Hans;繁体中文 zh-Hant;英文 en-us
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai' # 时区
 
 USE_I18N = True
 
